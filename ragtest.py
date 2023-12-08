@@ -1,7 +1,7 @@
 import os
 import requests
 import streamlit as st
-#import weaviate
+import weaviate
 import langchain
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatVertexAI
